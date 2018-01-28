@@ -15,9 +15,9 @@
 		<!-- Google Analytics Tracking code -->
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		 	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
 		  ga('create', 'UA-69785781-2', 'auto');
 			ga('require', 'GTM-P8F3832');
@@ -215,28 +215,39 @@
 				<div class="inner">
 					<header class="major">
 						<h2>Learn More</h2>
-						<p>Want to learn more about what we have to offer? <br /> Submit the form below and we'll be in touch to discuss your tutoring needs. <br /> Or call us at (718) 938-9451 between 9am and 9pm.</p>
+						<p>Want to learn more about what we have to offer? <br /> Submit the form below and we'll be in touch to discuss your tutoring needs.</p>
 					</header>
 					<form action="https://formspree.io/mqpjvpex" method="POST">
 						<div class="row uniform">
 							<div class="3u 12u$(xsmall)">
 							</div>
-							<div class="6u 12u$(xsmall)">
+							<div class="6u (xsmall)">
 								<input type="text" name="name" id="name" value="" placeholder="Name" / required="">
 								<br />
 								<div class="row uniform">
 									<div class="6u 12u$(xsmall)">
-										<input type="email" name="email" id="name" value="" placeholder="Email" / required="">
+										<div class="select-wrapper">
+												<select name="category" id="category" style="color:#b6c7e9">
+														<option value="">- Location -</option>
+  													<option value="jackson heights">Jackson Heights</option>
+  													<option value="brooklyn">Brooklyn</option>
+  													<option value="jamaica">Jamaica</option>
+  													<option value="castle hill">Castle Hill</option>
+														<option value="ozone park">Ozone Park</option>
+														<option value="astoria">Astoria</option>
+														<option value="floral park">Floral Park</option>
+														<option value="parkchester">Parkchester</option>
+														<option value="sutphin">Sutphin</option>
+														<option value="sunnyside">Sunnyside</option>
+														<option value="richmond hill">Richmond Hill</option>
+														<option value="not sure yet">Not Sure Yet</option>
+												</select>
+											</div>
 									</div>
 									<div class="6u 12u$(xsmall)">
 										<input type="text" name="name" id="name" value="" placeholder="Phone" / required="">
 									</div>
 									<br />
-								</div>
-								<div class="row uniform">
-									<div class="12u 12u$(xsmall)">
-										<textarea name="message" id="message" placeholder="Enter your comments or questions" rows="6"></textarea>
-									</div>
 								</div>
 							</div>
 							<div class="3u 12u$(xsmall)">
@@ -244,10 +255,7 @@
 						</div>
 						<div class="row uniform">
 							<div class="12u$">
-								<ul class="actions">
-									<li><input type="submit" value="Submit" class="special"  /></li>
-									<li><a href="http://www.khanstutorial.com/locations-contact/" target="_blank" class="button special">Locations</a></li>
-								</ul>
+								<input type="submit" value="Submit" class="special"  />
 							</div>
 						</div>
 						<input type="hidden" name="_next" value="thankyou.html" />

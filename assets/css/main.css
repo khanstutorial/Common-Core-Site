@@ -1956,6 +1956,12 @@
 			display: none;
 		}
 
+		select option {
+				background-color: rgba(74, 116, 201, .9);
+		    color: #b6c7e9;
+		    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+		}
+
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
