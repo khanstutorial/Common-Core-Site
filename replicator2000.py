@@ -79,7 +79,7 @@ def cityGeneration():
                      "East-Elmhurst","Elmhurst","Fairmont-Claremont-Village","Flatbush","Floral-Park",
                      "Flushing","Forest-Hills-Gardens","Forest-Hills","Fresh-Meadows","Glen-Oaks","Glendale","Greenwood",
                      "Hillcrest","Hollis","Jackson-Heights","Jamaica-Estates","Jamaica-Hills","Jamaica",
-                     "Kew-Garden-Hills","Kew-Gardens","Laurel-Hill","Laurelton","LeFrak-City","Lindenwood",
+                     "Kew-Gardens-Hills","Kew-Gardens","Laurel-Hill","Laurelton","LeFrak-City","Lindenwood",
                      "Locust-Manor","Long-Island-City","Malba","Mapleton","Maspeth","Middle-Village",
                      "Morris-Park","Murray-Hill","Oakland-Gardens","Ozone-Park","Park-Slope","Parkchester",
                      "Pelham-Bay","Pomonok","Prospect-Lefferts-Gardens","Prospect-Park-South","Queens-Village",
