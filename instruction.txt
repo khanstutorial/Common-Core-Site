@@ -1,0 +1,3 @@
+To make global changes, change index.html and nuke everything
+
+To make branch specific changes, change specific template file
