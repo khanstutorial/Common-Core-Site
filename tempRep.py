@@ -231,15 +231,15 @@ def writeTo(fileName,fileContent):
     return
 
 def makeFile(branch):
-    schedTarget = "<div id=\"sched\"></div>"
-    schedule = schedDict[branch]
+    #schedTarget = "<div id=\"sched\"></div>"
+    #schedule = schedDict[branch]
 
     with open("./index.html","r",encoding='ascii',errors='surrogateescape') as reference:
         refContent = reference.read()
-        startIndex = [m.start() for m in re.finditer(schedTarget, refContent)]
-        lookLen = len(schedTarget)
-        endContent = refContent[:startIndex[0]]+schedule+refContent[(startIndex[0]+lookLen):]
-        return endContent
+        #startIndex = [m.start() for m in re.finditer(schedTarget, refContent)]
+        #lookLen = len(schedTarget)
+        #endContent = refContent[:startIndex[0]]+schedule+refContent[(startIndex[0]+lookLen):]
+        return refContent
     return endContent
 
 def generateBranch(branch):
